@@ -1,12 +1,12 @@
 
-           body {
+           .body {
           font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #ffcc00; /* Fundo laranja */
             color: #333;
         }
-        header {
+        .header {
             background: #ff9900; /* Tom mais escuro de laranja */
             color: #fff;
             padding: 20px 0;
@@ -25,7 +25,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        footer {
+        .footer {
             text-align: center;
             padding: 10px;
             font-size: 1.2em;
