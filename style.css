@@ -1,17 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-:root {
-    --cor-principal: #ffb414;
-    --cor-secundaria: #ffc21b;
-    --cor-destaque: #000000;
-}
-
-body {
-    font-family: 'Chakra Petch', sans-serif;
-    color: var(--cor-principal);
-}
-
-h1, h2, h5 {
-    color: var(--cor-secundaria);
-    font-weight: 1080;
-}
+           body {</head>
+          font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffcc00; /* Fundo laranja */
+            color: #333;
+        }
+        header {
+            background: #ff9900; /* Tom mais escuro de laranja */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 1.2em;
+            color: #fff;
+            background: #cc7a00; /* Cor do rodapé */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    
