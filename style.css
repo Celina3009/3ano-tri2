@@ -3,11 +3,11 @@
           font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffcc00; /* Fundo laranja */
+            background-color: #ffcc00; 
             color: #333;
         }
         .header {
-            background: #ff9900; /* Tom mais escuro de laranja */
+            background: #ff9900; 
             color: #fff;
             padding: 20px 0;
             text-align: center;
@@ -30,7 +30,7 @@
             padding: 10px;
             font-size: 1.2em;
             color: #fff;
-            background: #cc7a00; /* Cor do rodapé */
+            background: #cc7a00; 
             position: relative;
             bottom: 0;
             width: 100%;
