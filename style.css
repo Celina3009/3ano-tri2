@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
-    --cor-principal: #6E859F;
+    --cor-principal: #ffb414;
     --cor-secundaria: #ffc21b;
-    --cor-destaque: #C92BFC;
+    --cor-destaque: #000000;
 }
 
 body {
@@ -14,17 +14,4 @@ body {
 h1, h2, h5 {
     color: var(--cor-secundaria);
     font-weight: 1080;
-}
-
-.lead, .btn-link {
-    color: var(--cor-destaque);
-    font-weight: 700;
-}
-
-a, .btn-link:hover {
-    color: var(--cor-principal)
-}
-
-a:hover{
-    color: var(--cor-destaque);
 }
