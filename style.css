@@ -1,37 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffeb9a;
+    color: #333;
+}
 
-        body {
-          font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffeb9a; 
-            color: #333;
-        }
-        header {
-            background: #ff9900; 
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            font-size: 50px;
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 50px;
-            padding: 100px;
-        }
-        .gallery img {
-            width: 100%;
-            border-radius: 60px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.795);
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            font-size: 10px;
-            color: #fff;
-            background: #f8d612; 
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    
+header {
+    background: #ff9900;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px; /* Mantém o espaçamento entre as colunas e adiciona entre as linhas */
+    padding: 100px;
+}
+
+.gallery-item {
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.795);
+    padding-bottom: 20px; /* Espaço para a descrição */
+    text-align: center;
+    display: flex; /* Para flexbox dentro do item */
+    flex-direction: column; /* Organiza imagem e descrição em coluna */
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 60px 60px 0 0; /* Arredonda apenas os cantos superiores da imagem */
+    display: block; /* Remove espaço extra abaixo da imagem */
+}
+
+.gallery-item .description {
+    padding: 15px;
+    font-size: 16px;
+    color: #555;
+    flex-grow: 1; /* Permite que a descrição ocupe o espaço restante */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o texto */
+    justify-content: center; /* Centraliza horizontalmente o texto */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    color: #fff;
+    background: #f8d612;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
