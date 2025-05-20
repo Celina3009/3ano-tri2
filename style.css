@@ -39,7 +39,7 @@ header {
 
 .gallery-item .description {
     padding: 15px;
-    font-size: 16px;
+    font-size: 20px;
     color: #555;
     flex-grow: 1; /* Permite que a descrição ocupe o espaço restante */
     display: flex;
