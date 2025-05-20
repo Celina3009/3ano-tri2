@@ -17,7 +17,7 @@ header {
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 50px; /* Mantém o espaçamento entre as colunas e adiciona entre as linhas */
+    gap: 100px; /* Mantém o espaçamento entre as colunas e adiciona entre as linhas */
     padding: 100px;
 }
 
@@ -25,7 +25,7 @@ header {
     background-color: #fff;
     border-radius: 60px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.795);
-    padding-bottom: 20px; /* Espaço para a descrição */
+    padding-bottom: 30px; /* Espaço para a descrição */
     text-align: center;
     display: flex; /* Para flexbox dentro do item */
     flex-direction: column; /* Organiza imagem e descrição em coluna */
@@ -33,7 +33,7 @@ header {
 
 .gallery-item img {
     width: 100%;
-    border-radius: 60px 60px 0 0; /* Arredonda apenas os cantos superiores da imagem */
+    border-radius: 20px 20px 0 0; /* Arredonda apenas os cantos superiores da imagem */
     display: block; /* Remove espaço extra abaixo da imagem */
 }
 
